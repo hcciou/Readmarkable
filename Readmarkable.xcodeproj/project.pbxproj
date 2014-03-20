@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F61094718D6E30F009C9AB8 /* BookStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61094618D6E30F009C9AB8 /* BookStoreViewController.m */; };
+		4F61094D18D854E0009C9AB8 /* JoinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61094A18D854E0009C9AB8 /* JoinView.m */; };
+		4F61094E18D854E0009C9AB8 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61094C18D854E0009C9AB8 /* LoginView.m */; };
+		4F61095218D85530009C9AB8 /* BookStoreTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61095118D85530009C9AB8 /* BookStoreTableView.m */; };
+		4F61095518D8554A009C9AB8 /* BookStoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61095418D8554A009C9AB8 /* BookStoreTableViewCell.m */; };
+		4FC55D3318D69ACD00D9D236 /* JoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC55D3218D69ACD00D9D236 /* JoinViewController.m */; };
+		4FEE83D518D44B8300A51033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEE83D418D44B8300A51033 /* Foundation.framework */; };
+		4FEE83D718D44B8300A51033 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEE83D618D44B8300A51033 /* CoreGraphics.framework */; };
+		4FEE83D918D44B8300A51033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEE83D818D44B8300A51033 /* UIKit.framework */; };
+		4FEE83DF18D44B8300A51033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FEE83DD18D44B8300A51033 /* InfoPlist.strings */; };
+		4FEE83E118D44B8300A51033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE83E018D44B8300A51033 /* main.m */; };
+		4FEE83E518D44B8300A51033 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE83E418D44B8300A51033 /* AppDelegate.m */; };
+		4FEE83E818D44B8300A51033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEE83E618D44B8300A51033 /* Main.storyboard */; };
+		4FEE83ED18D44B8300A51033 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEE83EC18D44B8300A51033 /* Images.xcassets */; };
+		4FEE83F418D44B8300A51033 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEE83F318D44B8300A51033 /* XCTest.framework */; };
+		4FEE83F518D44B8300A51033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEE83D418D44B8300A51033 /* Foundation.framework */; };
+		4FEE83F618D44B8300A51033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEE83D818D44B8300A51033 /* UIKit.framework */; };
+		4FEE83FE18D44B8300A51033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FEE83FC18D44B8300A51033 /* InfoPlist.strings */; };
+		4FEE840018D44B8300A51033 /* ReadmarkableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE83FF18D44B8300A51033 /* ReadmarkableTests.m */; };
+		4FEE841118D4504D00A51033 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE841018D4504D00A51033 /* MainController.m */; };
+		4FEE841518D4513E00A51033 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE841418D4513E00A51033 /* UIColor+HexColor.m */; };
+		4FEE846418D5975B00A51033 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE846318D5975B00A51033 /* LoginViewController.m */; };
+		DF5123C8F0C04F538CF9BD2E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047972BDD45E4AE3BCC060DD /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FEE83F718D44B8300A51033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FEE83C918D44B8300A51033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FEE83D018D44B8300A51033;
+			remoteInfo = Readmarkable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047972BDD45E4AE3BCC060DD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F61094518D6E30F009C9AB8 /* BookStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStoreViewController.h; sourceTree = "<group>"; };
+		4F61094618D6E30F009C9AB8 /* BookStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreViewController.m; sourceTree = "<group>"; };
+		4F61094918D854E0009C9AB8 /* JoinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinView.h; sourceTree = "<group>"; };
+		4F61094A18D854E0009C9AB8 /* JoinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinView.m; sourceTree = "<group>"; };
+		4F61094B18D854E0009C9AB8 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		4F61094C18D854E0009C9AB8 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		4F61095018D85530009C9AB8 /* BookStoreTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStoreTableView.h; sourceTree = "<group>"; };
+		4F61095118D85530009C9AB8 /* BookStoreTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreTableView.m; sourceTree = "<group>"; };
+		4F61095318D8554A009C9AB8 /* BookStoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStoreTableViewCell.h; sourceTree = "<group>"; };
+		4F61095418D8554A009C9AB8 /* BookStoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreTableViewCell.m; sourceTree = "<group>"; };
+		4FC55D3118D69ACD00D9D236 /* JoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinViewController.h; sourceTree = "<group>"; };
+		4FC55D3218D69ACD00D9D236 /* JoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinViewController.m; sourceTree = "<group>"; };
+		4FEE83D118D44B8300A51033 /* Readmarkable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readmarkable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEE83D418D44B8300A51033 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4FEE83D618D44B8300A51033 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4FEE83D818D44B8300A51033 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4FEE83DC18D44B8300A51033 /* Readmarkable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Readmarkable-Info.plist"; sourceTree = "<group>"; };
+		4FEE83DE18D44B8300A51033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FEE83E018D44B8300A51033 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FEE83E218D44B8300A51033 /* Readmarkable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Readmarkable-Prefix.pch"; sourceTree = "<group>"; };
+		4FEE83E318D44B8300A51033 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FEE83E418D44B8300A51033 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FEE83E718D44B8300A51033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FEE83EC18D44B8300A51033 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4FEE83F218D44B8300A51033 /* ReadmarkableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadmarkableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEE83F318D44B8300A51033 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4FEE83FB18D44B8300A51033 /* ReadmarkableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReadmarkableTests-Info.plist"; sourceTree = "<group>"; };
+		4FEE83FD18D44B8300A51033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FEE83FF18D44B8300A51033 /* ReadmarkableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadmarkableTests.m; sourceTree = "<group>"; };
+		4FEE840F18D4504D00A51033 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		4FEE841018D4504D00A51033 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		4FEE841318D4513E00A51033 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		4FEE841418D4513E00A51033 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		4FEE841918D4756500A51033 /* ColorList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorList.h; sourceTree = "<group>"; };
+		4FEE846218D5975B00A51033 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4FEE846318D5975B00A51033 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		66DB4869B472463794178E84 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FEE83CE18D44B8300A51033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEE83D718D44B8300A51033 /* CoreGraphics.framework in Frameworks */,
+				4FEE83D918D44B8300A51033 /* UIKit.framework in Frameworks */,
+				4FEE83D518D44B8300A51033 /* Foundation.framework in Frameworks */,
+				DF5123C8F0C04F538CF9BD2E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEE83EF18D44B8300A51033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEE83F418D44B8300A51033 /* XCTest.framework in Frameworks */,
+				4FEE83F618D44B8300A51033 /* UIKit.framework in Frameworks */,
+				4FEE83F518D44B8300A51033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F61094418D6E297009C9AB8 /* BookStoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F61094518D6E30F009C9AB8 /* BookStoreViewController.h */,
+				4F61094618D6E30F009C9AB8 /* BookStoreViewController.m */,
+			);
+			path = BookStoreViewController;
+			sourceTree = "<group>";
+		};
+		4F61094818D8546A009C9AB8 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				4F61094918D854E0009C9AB8 /* JoinView.h */,
+				4F61094A18D854E0009C9AB8 /* JoinView.m */,
+				4F61094B18D854E0009C9AB8 /* LoginView.h */,
+				4F61094C18D854E0009C9AB8 /* LoginView.m */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		4F61094F18D854EB009C9AB8 /* BookStore */ = {
+			isa = PBXGroup;
+			children = (
+				4F61095018D85530009C9AB8 /* BookStoreTableView.h */,
+				4F61095118D85530009C9AB8 /* BookStoreTableView.m */,
+				4F61095318D8554A009C9AB8 /* BookStoreTableViewCell.h */,
+				4F61095418D8554A009C9AB8 /* BookStoreTableViewCell.m */,
+			);
+			path = BookStore;
+			sourceTree = "<group>";
+		};
+		4FC55D3018D6995800D9D236 /* JoinViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4FC55D3118D69ACD00D9D236 /* JoinViewController.h */,
+				4FC55D3218D69ACD00D9D236 /* JoinViewController.m */,
+			);
+			path = JoinViewController;
+			sourceTree = "<group>";
+		};
+		4FEE83C818D44B8300A51033 = {
+			isa = PBXGroup;
+			children = (
+				4FEE83DA18D44B8300A51033 /* Readmarkable */,
+				4FEE83F918D44B8300A51033 /* ReadmarkableTests */,
+				4FEE83D318D44B8300A51033 /* Frameworks */,
+				4FEE83D218D44B8300A51033 /* Products */,
+				66DB4869B472463794178E84 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4FEE83D218D44B8300A51033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FEE83D118D44B8300A51033 /* Readmarkable.app */,
+				4FEE83F218D44B8300A51033 /* ReadmarkableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FEE83D318D44B8300A51033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FEE83D418D44B8300A51033 /* Foundation.framework */,
+				4FEE83D618D44B8300A51033 /* CoreGraphics.framework */,
+				4FEE83D818D44B8300A51033 /* UIKit.framework */,
+				4FEE83F318D44B8300A51033 /* XCTest.framework */,
+				047972BDD45E4AE3BCC060DD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FEE83DA18D44B8300A51033 /* Readmarkable */ = {
+			isa = PBXGroup;
+			children = (
+				4FEE83E318D44B8300A51033 /* AppDelegate.h */,
+				4FEE83E418D44B8300A51033 /* AppDelegate.m */,
+				4FEE83EC18D44B8300A51033 /* Images.xcassets */,
+				4FEE841218D4510600A51033 /* Arsenal */,
+				4FEE840D18D4501900A51033 /* Controllers */,
+				4FEE83E618D44B8300A51033 /* Main.storyboard */,
+				4FEE841718D457D700A51033 /* Models */,
+				4FEE83DB18D44B8300A51033 /* Supporting Files */,
+				4FEE841618D457BC00A51033 /* Views */,
+			);
+			path = Readmarkable;
+			sourceTree = "<group>";
+		};
+		4FEE83DB18D44B8300A51033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FEE83DC18D44B8300A51033 /* Readmarkable-Info.plist */,
+				4FEE83DD18D44B8300A51033 /* InfoPlist.strings */,
+				4FEE83E018D44B8300A51033 /* main.m */,
+				4FEE83E218D44B8300A51033 /* Readmarkable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FEE83F918D44B8300A51033 /* ReadmarkableTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FEE83FF18D44B8300A51033 /* ReadmarkableTests.m */,
+				4FEE83FA18D44B8300A51033 /* Supporting Files */,
+			);
+			path = ReadmarkableTests;
+			sourceTree = "<group>";
+		};
+		4FEE83FA18D44B8300A51033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FEE83FB18D44B8300A51033 /* ReadmarkableTests-Info.plist */,
+				4FEE83FC18D44B8300A51033 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FEE840D18D4501900A51033 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F61094418D6E297009C9AB8 /* BookStoreViewController */,
+				4FC55D3018D6995800D9D236 /* JoinViewController */,
+				4FEE846118D5972C00A51033 /* LoginViewController */,
+				4FEE840E18D4504D00A51033 /* MainController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4FEE840E18D4504D00A51033 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				4FEE840F18D4504D00A51033 /* MainController.h */,
+				4FEE841018D4504D00A51033 /* MainController.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		4FEE841218D4510600A51033 /* Arsenal */ = {
+			isa = PBXGroup;
+			children = (
+				4FEE841318D4513E00A51033 /* UIColor+HexColor.h */,
+				4FEE841418D4513E00A51033 /* UIColor+HexColor.m */,
+				4FEE841918D4756500A51033 /* ColorList.h */,
+			);
+			path = Arsenal;
+			sourceTree = "<group>";
+		};
+		4FEE841618D457BC00A51033 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F61094F18D854EB009C9AB8 /* BookStore */,
+				4F61094818D8546A009C9AB8 /* LoginView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4FEE841718D457D700A51033 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FEE846118D5972C00A51033 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4FEE846218D5975B00A51033 /* LoginViewController.h */,
+				4FEE846318D5975B00A51033 /* LoginViewController.m */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FEE83D018D44B8300A51033 /* Readmarkable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEE840318D44B8300A51033 /* Build configuration list for PBXNativeTarget "Readmarkable" */;
+			buildPhases = (
+				BD8130CAFCC4422FA2F48DEC /* Check Pods Manifest.lock */,
+				4FEE83CD18D44B8300A51033 /* Sources */,
+				4FEE83CE18D44B8300A51033 /* Frameworks */,
+				4FEE83CF18D44B8300A51033 /* Resources */,
+				26475EF7CCAF4098B23C301C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Readmarkable;
+			productName = Readmarkable;
+			productReference = 4FEE83D118D44B8300A51033 /* Readmarkable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FEE83F118D44B8300A51033 /* ReadmarkableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEE840618D44B8300A51033 /* Build configuration list for PBXNativeTarget "ReadmarkableTests" */;
+			buildPhases = (
+				4FEE83EE18D44B8300A51033 /* Sources */,
+				4FEE83EF18D44B8300A51033 /* Frameworks */,
+				4FEE83F018D44B8300A51033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FEE83F818D44B8300A51033 /* PBXTargetDependency */,
+			);
+			name = ReadmarkableTests;
+			productName = ReadmarkableTests;
+			productReference = 4FEE83F218D44B8300A51033 /* ReadmarkableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FEE83C918D44B8300A51033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hcc;
+				TargetAttributes = {
+					4FEE83F118D44B8300A51033 = {
+						TestTargetID = 4FEE83D018D44B8300A51033;
+					};
+				};
+			};
+			buildConfigurationList = 4FEE83CC18D44B8300A51033 /* Build configuration list for PBXProject "Readmarkable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FEE83C818D44B8300A51033;
+			productRefGroup = 4FEE83D218D44B8300A51033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FEE83D018D44B8300A51033 /* Readmarkable */,
+				4FEE83F118D44B8300A51033 /* ReadmarkableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FEE83CF18D44B8300A51033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEE83ED18D44B8300A51033 /* Images.xcassets in Resources */,
+				4FEE83DF18D44B8300A51033 /* InfoPlist.strings in Resources */,
+				4FEE83E818D44B8300A51033 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEE83F018D44B8300A51033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEE83FE18D44B8300A51033 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26475EF7CCAF4098B23C301C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8130CAFCC4422FA2F48DEC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FEE83CD18D44B8300A51033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F61095218D85530009C9AB8 /* BookStoreTableView.m in Sources */,
+				4F61094D18D854E0009C9AB8 /* JoinView.m in Sources */,
+				4FEE83E518D44B8300A51033 /* AppDelegate.m in Sources */,
+				4F61094718D6E30F009C9AB8 /* BookStoreViewController.m in Sources */,
+				4F61094E18D854E0009C9AB8 /* LoginView.m in Sources */,
+				4FEE841518D4513E00A51033 /* UIColor+HexColor.m in Sources */,
+				4FEE83E118D44B8300A51033 /* main.m in Sources */,
+				4FEE846418D5975B00A51033 /* LoginViewController.m in Sources */,
+				4FC55D3318D69ACD00D9D236 /* JoinViewController.m in Sources */,
+				4FEE841118D4504D00A51033 /* MainController.m in Sources */,
+				4F61095518D8554A009C9AB8 /* BookStoreTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEE83EE18D44B8300A51033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEE840018D44B8300A51033 /* ReadmarkableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FEE83F818D44B8300A51033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FEE83D018D44B8300A51033 /* Readmarkable */;
+			targetProxy = 4FEE83F718D44B8300A51033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FEE83DD18D44B8300A51033 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FEE83DE18D44B8300A51033 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4FEE83E618D44B8300A51033 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FEE83E718D44B8300A51033 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FEE83FC18D44B8300A51033 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FEE83FD18D44B8300A51033 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FEE840118D44B8300A51033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4FEE840218D44B8300A51033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FEE840418D44B8300A51033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DB4869B472463794178E84 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Readmarkable/Readmarkable-Prefix.pch";
+				INFOPLIST_FILE = "Readmarkable/Readmarkable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4FEE840518D44B8300A51033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DB4869B472463794178E84 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Readmarkable/Readmarkable-Prefix.pch";
+				INFOPLIST_FILE = "Readmarkable/Readmarkable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4FEE840718D44B8300A51033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Readmarkable.app/Readmarkable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Readmarkable/Readmarkable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ReadmarkableTests/ReadmarkableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4FEE840818D44B8300A51033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Readmarkable.app/Readmarkable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Readmarkable/Readmarkable-Prefix.pch";
+				INFOPLIST_FILE = "ReadmarkableTests/ReadmarkableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FEE83CC18D44B8300A51033 /* Build configuration list for PBXProject "Readmarkable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEE840118D44B8300A51033 /* Debug */,
+				4FEE840218D44B8300A51033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEE840318D44B8300A51033 /* Build configuration list for PBXNativeTarget "Readmarkable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEE840418D44B8300A51033 /* Debug */,
+				4FEE840518D44B8300A51033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEE840618D44B8300A51033 /* Build configuration list for PBXNativeTarget "ReadmarkableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEE840718D44B8300A51033 /* Debug */,
+				4FEE840818D44B8300A51033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FEE83C918D44B8300A51033 /* Project object */;
+}
