@@ -67,7 +67,9 @@
 - (void) clickLoginButton
 {
     BookStoreViewController* BookStoreView = [BookStoreViewController new];
-    [self.navigationController pushViewController: BookStoreView animated:YES];
+//    [self.navigationController pushViewController: BookStoreView animated:YES];
+    [self presentViewController:BookStoreView animated:YES completion:nil];
+    
 }
 
 - (void) textFieldReturn

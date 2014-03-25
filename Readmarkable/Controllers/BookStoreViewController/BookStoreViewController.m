@@ -42,8 +42,14 @@
 
 - (void)setLayout
 {
-    self.navigationController.navigationBarHidden = YES;
-    self.view.backgroundColor = [UIColor colorWithHexString: kColorMainCyan];
+//    self.navigationController.navigationBarHidden = YES;
+    self.title = @"書庫";
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithHexString: kColorMainCyan];
+    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
+    self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
+    
+//    self.view.backgroundColor = [UIColor colorWithHexString: kColorMainCyan];
+    
 }
 
 #pragma mark - getter
@@ -52,6 +58,8 @@
     if (!_bookStoreTableView) {
         CGRect frame = self.view.frame;
         _bookStoreTableView = [[BookStoreTableView alloc] initWithFrame: frame];
+        // tableView 線不見
+        _bookStoreTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         _bookStoreTableView.delegate = self;
         _bookStoreTableView.dataSource = self;;
         
@@ -73,8 +81,16 @@
         cell = [[BookStoreTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"bookstoreCellID"];
     }
     cell.textLabel.text = @"火影忍者";
+    cell.imageView.image = [UIImage imageNamed:@"naruto"];
 
     return cell;
+}
+
+#pragma mark - UITableViewDelegate
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 100;
 }
 
 

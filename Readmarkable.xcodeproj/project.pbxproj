@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1A99C618E1696E00D60A19 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A99C518E1696E00D60A19 /* MenuViewController.m */; };
+		4F1A99CA18E1773100D60A19 /* MenuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A99C918E1773100D60A19 /* MenuTableView.m */; };
+		4F1A99CD18E1774700D60A19 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A99CC18E1774700D60A19 /* MenuTableViewCell.m */; };
 		4F61094718D6E30F009C9AB8 /* BookStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61094618D6E30F009C9AB8 /* BookStoreViewController.m */; };
 		4F61094D18D854E0009C9AB8 /* JoinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61094A18D854E0009C9AB8 /* JoinView.m */; };
 		4F61094E18D854E0009C9AB8 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61094C18D854E0009C9AB8 /* LoginView.m */; };
@@ -44,6 +47,12 @@
 
 /* Begin PBXFileReference section */
 		047972BDD45E4AE3BCC060DD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1A99C418E1696E00D60A19 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		4F1A99C518E1696E00D60A19 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		4F1A99C818E1773100D60A19 /* MenuTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableView.h; sourceTree = "<group>"; };
+		4F1A99C918E1773100D60A19 /* MenuTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableView.m; sourceTree = "<group>"; };
+		4F1A99CB18E1774700D60A19 /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		4F1A99CC18E1774700D60A19 /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
 		4F61094518D6E30F009C9AB8 /* BookStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStoreViewController.h; sourceTree = "<group>"; };
 		4F61094618D6E30F009C9AB8 /* BookStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreViewController.m; sourceTree = "<group>"; };
 		4F61094918D854E0009C9AB8 /* JoinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinView.h; sourceTree = "<group>"; };
@@ -108,6 +117,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F1A99C318E1693400D60A19 /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F1A99C418E1696E00D60A19 /* MenuViewController.h */,
+				4F1A99C518E1696E00D60A19 /* MenuViewController.m */,
+			);
+			path = MenuViewController;
+			sourceTree = "<group>";
+		};
+		4F1A99C718E176DA00D60A19 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				4F1A99C818E1773100D60A19 /* MenuTableView.h */,
+				4F1A99C918E1773100D60A19 /* MenuTableView.m */,
+				4F1A99CB18E1774700D60A19 /* MenuTableViewCell.h */,
+				4F1A99CC18E1774700D60A19 /* MenuTableViewCell.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		4F61094418D6E297009C9AB8 /* BookStoreViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,9 +214,9 @@
 			children = (
 				4FEE83E318D44B8300A51033 /* AppDelegate.h */,
 				4FEE83E418D44B8300A51033 /* AppDelegate.m */,
-				4FEE83EC18D44B8300A51033 /* Images.xcassets */,
 				4FEE841218D4510600A51033 /* Arsenal */,
 				4FEE840D18D4501900A51033 /* Controllers */,
+				4FEE83EC18D44B8300A51033 /* Images.xcassets */,
 				4FEE83E618D44B8300A51033 /* Main.storyboard */,
 				4FEE841718D457D700A51033 /* Models */,
 				4FEE83DB18D44B8300A51033 /* Supporting Files */,
@@ -228,6 +257,7 @@
 		4FEE840D18D4501900A51033 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4F1A99C318E1693400D60A19 /* MenuViewController */,
 				4F61094418D6E297009C9AB8 /* BookStoreViewController */,
 				4FC55D3018D6995800D9D236 /* JoinViewController */,
 				4FEE846118D5972C00A51033 /* LoginViewController */,
@@ -258,6 +288,7 @@
 		4FEE841618D457BC00A51033 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4F1A99C718E176DA00D60A19 /* Menu */,
 				4F61094F18D854EB009C9AB8 /* BookStore */,
 				4F61094818D8546A009C9AB8 /* LoginView */,
 			);
@@ -419,10 +450,13 @@
 				4F61094E18D854E0009C9AB8 /* LoginView.m in Sources */,
 				4FEE841518D4513E00A51033 /* UIColor+HexColor.m in Sources */,
 				4FEE83E118D44B8300A51033 /* main.m in Sources */,
+				4F1A99C618E1696E00D60A19 /* MenuViewController.m in Sources */,
 				4FEE846418D5975B00A51033 /* LoginViewController.m in Sources */,
 				4FC55D3318D69ACD00D9D236 /* JoinViewController.m in Sources */,
+				4F1A99CD18E1774700D60A19 /* MenuTableViewCell.m in Sources */,
 				4FEE841118D4504D00A51033 /* MainController.m in Sources */,
 				4F61095518D8554A009C9AB8 /* BookStoreTableViewCell.m in Sources */,
+				4F1A99CA18E1773100D60A19 /* MenuTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
