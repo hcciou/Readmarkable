@@ -47,7 +47,7 @@
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithHexString: kColorMainCyan];
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
     self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
-    
+    self.navigationController.navigationBar.translucent = NO;
 //    self.view.backgroundColor = [UIColor colorWithHexString: kColorMainCyan];
     
 }
@@ -80,9 +80,6 @@
     if (!_bookStoreTableViewCell) {
         cell = [[BookStoreTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"bookstoreCellID"];
     }
-    cell.textLabel.text = @"火影忍者";
-    cell.imageView.image = [UIImage imageNamed:@"naruto"];
-
     return cell;
 }
 
@@ -90,8 +87,14 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 100;
+    return 130;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"123");
+}
+
 
 
 /*

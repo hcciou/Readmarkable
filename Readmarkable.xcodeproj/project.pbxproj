@@ -15,6 +15,7 @@
 		4F61094E18D854E0009C9AB8 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61094C18D854E0009C9AB8 /* LoginView.m */; };
 		4F61095218D85530009C9AB8 /* BookStoreTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61095118D85530009C9AB8 /* BookStoreTableView.m */; };
 		4F61095518D8554A009C9AB8 /* BookStoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61095418D8554A009C9AB8 /* BookStoreTableViewCell.m */; };
+		4F82BD8C18F9150F009BE10F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82BD8B18F9150F009BE10F /* DetailViewController.m */; };
 		4FC55D3318D69ACD00D9D236 /* JoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC55D3218D69ACD00D9D236 /* JoinViewController.m */; };
 		4FEE83D518D44B8300A51033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEE83D418D44B8300A51033 /* Foundation.framework */; };
 		4FEE83D718D44B8300A51033 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEE83D618D44B8300A51033 /* CoreGraphics.framework */; };
@@ -63,6 +64,8 @@
 		4F61095118D85530009C9AB8 /* BookStoreTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreTableView.m; sourceTree = "<group>"; };
 		4F61095318D8554A009C9AB8 /* BookStoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStoreTableViewCell.h; sourceTree = "<group>"; };
 		4F61095418D8554A009C9AB8 /* BookStoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreTableViewCell.m; sourceTree = "<group>"; };
+		4F82BD8A18F9150F009BE10F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4F82BD8B18F9150F009BE10F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		4FC55D3118D69ACD00D9D236 /* JoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinViewController.h; sourceTree = "<group>"; };
 		4FC55D3218D69ACD00D9D236 /* JoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinViewController.m; sourceTree = "<group>"; };
 		4FEE83D118D44B8300A51033 /* Readmarkable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readmarkable.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +171,15 @@
 			path = BookStore;
 			sourceTree = "<group>";
 		};
+		4F82BD8918F914D6009BE10F /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F82BD8A18F9150F009BE10F /* DetailViewController.h */,
+				4F82BD8B18F9150F009BE10F /* DetailViewController.m */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
 		4FC55D3018D6995800D9D236 /* JoinViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +269,7 @@
 		4FEE840D18D4501900A51033 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4F82BD8918F914D6009BE10F /* DetailViewController */,
 				4F1A99C318E1693400D60A19 /* MenuViewController */,
 				4F61094418D6E297009C9AB8 /* BookStoreViewController */,
 				4FC55D3018D6995800D9D236 /* JoinViewController */,
@@ -448,6 +461,7 @@
 				4FEE83E518D44B8300A51033 /* AppDelegate.m in Sources */,
 				4F61094718D6E30F009C9AB8 /* BookStoreViewController.m in Sources */,
 				4F61094E18D854E0009C9AB8 /* LoginView.m in Sources */,
+				4F82BD8C18F9150F009BE10F /* DetailViewController.m in Sources */,
 				4FEE841518D4513E00A51033 /* UIColor+HexColor.m in Sources */,
 				4FEE83E118D44B8300A51033 /* main.m in Sources */,
 				4F1A99C618E1696E00D60A19 /* MenuViewController.m in Sources */,

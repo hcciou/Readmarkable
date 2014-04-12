@@ -14,7 +14,7 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        self.backgroundColor = [UIColor greenColor];
+        [self setupLayout];
     }
     return self;
 }
@@ -22,6 +22,11 @@
 - (void)awakeFromNib
 {
     // Initialization code
+}
+
+- (void)setupLayout
+{
+    self.backgroundColor = [UIColor greenColor];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated

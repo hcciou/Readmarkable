@@ -24,7 +24,7 @@
     self.viewController.leftPanel = [[UINavigationController alloc] initWithRootViewController: [[MenuViewController alloc] init]];
     self.viewController.centerPanel = [[UINavigationController alloc] initWithRootViewController:[[BookStoreViewController alloc] init]];
     self.viewController.leftFixedWidth = 300;
-    self.window.rootViewController = self.viewController;
+//    self.window.rootViewController = self.viewController;
 }
 
 

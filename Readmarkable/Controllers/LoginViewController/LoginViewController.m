@@ -59,16 +59,22 @@
 
 - (void) clickClearButton
 {
-//    NSLog(@"123");
     self.emailField.text = nil;
     self.passwordField.text = nil;
 }
 
 - (void) clickLoginButton
 {
-    BookStoreViewController* BookStoreView = [BookStoreViewController new];
-//    [self.navigationController pushViewController: BookStoreView animated:YES];
-    [self presentViewController:BookStoreView animated:YES completion:nil];
+//    BookStoreViewController* BookStoreView = [BookStoreViewController new];
+////    [self.navigationController pushViewController: BookStoreView animated:YES];
+//    [self presentViewController:BookStoreView animated:YES completion:nil];
+    
+     UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+     
+     UINavigationController* naviViewController = [storyboard instantiateViewControllerWithIdentifier:@"naviBookStoreViewController"];
+     [self presentViewController:naviViewController animated:YES completion:nil];
+     
+
     
 }
 
