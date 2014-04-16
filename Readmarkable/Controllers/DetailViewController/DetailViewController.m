@@ -7,7 +7,7 @@
 //
 
 #import "DetailViewController.h"
-#import "ContentViewController.h"
+#import "PageViewController.h"
 #import <UIView+AutoLayout.h>
 
 @interface DetailViewController ()
@@ -69,8 +69,7 @@
 
 - (void)continueAction
 {
-    ContentViewController* nextVC = [ContentViewController new];
-//    RootViewController* nextVC = [RootViewController new];
+    PageViewController* nextVC = [PageViewController new];
     [self.navigationController pushViewController:nextVC animated:YES];
 }
 
