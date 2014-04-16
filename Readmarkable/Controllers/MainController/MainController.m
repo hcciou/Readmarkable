@@ -24,11 +24,23 @@
     [self setLayout];
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:YES animated:animated];
+    [super viewWillAppear:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:NO animated:animated];
+    [super viewWillDisappear:animated];
+}
+
 - (void) setLayout
 {
     self.title = @"";
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithHexString: kColorMainCyan];
-
+    self.navigationController.navigationBar.hidden = YES;
     self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
     
     self.view.backgroundColor = [UIColor colorWithHexString: kColorMainCyan];

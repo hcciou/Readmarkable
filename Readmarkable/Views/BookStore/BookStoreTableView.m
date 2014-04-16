@@ -14,7 +14,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [UIColor redColor];
+        self.backgroundColor = [UIColor colorWithHexString: kColorFontCyan];
     }
     return self;
 }

@@ -10,6 +10,7 @@
 #import <JASidePanelController.h>
 #import "BookStoreTableView.h"
 #import "BookStoreTableViewCell.h"
+#import "DetailViewController.h"
 
 @interface BookStoreViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property ( nonatomic, strong) BookStoreTableView* bookStoreTableView;
@@ -92,7 +93,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"123");
+    DetailViewController* nextVC = [[DetailViewController alloc] init];
+    [self.navigationController pushViewController:nextVC animated:YES];
 }
 
 

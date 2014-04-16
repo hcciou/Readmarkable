@@ -14,6 +14,21 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-UIImage+PDF.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-UIView+AutoLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-vfrReader.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>11248C26C05D4F0181A9CD9E</key>
+		<key>138E56C3F8C74DACAD3E9F75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3AFEA2D40E28400BB34BAE13</key>
+		<key>4C5C9BEFF0CD49F8866D93DB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E877D6B6A0DE4CD78DA83512</key>
+		<key>6DBA84FEEAD54AE1B37E4E77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B46602D048345AEAE16BD93</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B310C211756E499BBFC986CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B374A5E3EA00420D823CF1B9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -15,7 +15,9 @@
 		4F61094E18D854E0009C9AB8 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61094C18D854E0009C9AB8 /* LoginView.m */; };
 		4F61095218D85530009C9AB8 /* BookStoreTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61095118D85530009C9AB8 /* BookStoreTableView.m */; };
 		4F61095518D8554A009C9AB8 /* BookStoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61095418D8554A009C9AB8 /* BookStoreTableViewCell.m */; };
+		4F7189C618FD2824004EDC52 /* The_Metamorphosis.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F7189C518FD2824004EDC52 /* The_Metamorphosis.txt */; };
 		4F82BD8C18F9150F009BE10F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82BD8B18F9150F009BE10F /* DetailViewController.m */; };
+		4F8A8EA718FB8EED00442628 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A8EA618FB8EED00442628 /* ContentViewController.m */; };
 		4FC55D3318D69ACD00D9D236 /* JoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC55D3218D69ACD00D9D236 /* JoinViewController.m */; };
 		4FEE83D518D44B8300A51033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEE83D418D44B8300A51033 /* Foundation.framework */; };
 		4FEE83D718D44B8300A51033 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEE83D618D44B8300A51033 /* CoreGraphics.framework */; };
@@ -64,8 +66,11 @@
 		4F61095118D85530009C9AB8 /* BookStoreTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreTableView.m; sourceTree = "<group>"; };
 		4F61095318D8554A009C9AB8 /* BookStoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStoreTableViewCell.h; sourceTree = "<group>"; };
 		4F61095418D8554A009C9AB8 /* BookStoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreTableViewCell.m; sourceTree = "<group>"; };
+		4F7189C518FD2824004EDC52 /* The_Metamorphosis.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = The_Metamorphosis.txt; sourceTree = "<group>"; };
 		4F82BD8A18F9150F009BE10F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		4F82BD8B18F9150F009BE10F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4F8A8EA518FB8EED00442628 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		4F8A8EA618FB8EED00442628 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 		4FC55D3118D69ACD00D9D236 /* JoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinViewController.h; sourceTree = "<group>"; };
 		4FC55D3218D69ACD00D9D236 /* JoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinViewController.m; sourceTree = "<group>"; };
 		4FEE83D118D44B8300A51033 /* Readmarkable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readmarkable.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +185,15 @@
 			path = DetailViewController;
 			sourceTree = "<group>";
 		};
+		4F8A8EA418FB8EAC00442628 /* ContentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F8A8EA518FB8EED00442628 /* ContentViewController.h */,
+				4F8A8EA618FB8EED00442628 /* ContentViewController.m */,
+			);
+			path = ContentViewController;
+			sourceTree = "<group>";
+		};
 		4FC55D3018D6995800D9D236 /* JoinViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +240,7 @@
 			children = (
 				4FEE83E318D44B8300A51033 /* AppDelegate.h */,
 				4FEE83E418D44B8300A51033 /* AppDelegate.m */,
+				4F7189C518FD2824004EDC52 /* The_Metamorphosis.txt */,
 				4FEE841218D4510600A51033 /* Arsenal */,
 				4FEE840D18D4501900A51033 /* Controllers */,
 				4FEE83EC18D44B8300A51033 /* Images.xcassets */,
@@ -269,12 +284,13 @@
 		4FEE840D18D4501900A51033 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4F82BD8918F914D6009BE10F /* DetailViewController */,
-				4F1A99C318E1693400D60A19 /* MenuViewController */,
 				4F61094418D6E297009C9AB8 /* BookStoreViewController */,
+				4F8A8EA418FB8EAC00442628 /* ContentViewController */,
+				4F82BD8918F914D6009BE10F /* DetailViewController */,
 				4FC55D3018D6995800D9D236 /* JoinViewController */,
 				4FEE846118D5972C00A51033 /* LoginViewController */,
 				4FEE840E18D4504D00A51033 /* MainController */,
+				4F1A99C318E1693400D60A19 /* MenuViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -404,6 +420,7 @@
 			files = (
 				4FEE83ED18D44B8300A51033 /* Images.xcassets in Resources */,
 				4FEE83DF18D44B8300A51033 /* InfoPlist.strings in Resources */,
+				4F7189C618FD2824004EDC52 /* The_Metamorphosis.txt in Resources */,
 				4FEE83E818D44B8300A51033 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,6 +485,7 @@
 				4FEE846418D5975B00A51033 /* LoginViewController.m in Sources */,
 				4FC55D3318D69ACD00D9D236 /* JoinViewController.m in Sources */,
 				4F1A99CD18E1774700D60A19 /* MenuTableViewCell.m in Sources */,
+				4F8A8EA718FB8EED00442628 /* ContentViewController.m in Sources */,
 				4FEE841118D4504D00A51033 /* MainController.m in Sources */,
 				4F61095518D8554A009C9AB8 /* BookStoreTableViewCell.m in Sources */,
 				4F1A99CA18E1773100D60A19 /* MenuTableView.m in Sources */,

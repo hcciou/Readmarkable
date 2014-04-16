@@ -10,6 +10,6 @@
 #define Readmarkable_ColorList_h
 
 static NSString* const kColorMainCyan = @"02c5d9";
-static NSString* const kColorFontCyan = @"025e66";
+static NSString* const kColorFontCyan = @"08A5AC";
 
 #endif
