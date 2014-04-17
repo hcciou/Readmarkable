@@ -7,7 +7,7 @@
 //
 
 #import "DetailViewController.h"
-#import "PageViewController.h"
+#import "KFEpubViewController.h"
 #import <UIView+AutoLayout.h>
 
 @interface DetailViewController ()
@@ -69,7 +69,7 @@
 
 - (void)continueAction
 {
-    PageViewController* nextVC = [PageViewController new];
+    KFEpubViewController* nextVC = [KFEpubViewController new];
     [self.navigationController pushViewController:nextVC animated:YES];
 }
 

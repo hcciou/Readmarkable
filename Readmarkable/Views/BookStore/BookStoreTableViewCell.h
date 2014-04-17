@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface BookStoreTableViewCell : UITableViewCell
-
+@property ( nonatomic, strong) UIImageView* photoImage;
+@property ( nonatomic, strong) UILabel* bookNameLabel;
+@property ( nonatomic, strong) UILabel* authorLabel;
 @end

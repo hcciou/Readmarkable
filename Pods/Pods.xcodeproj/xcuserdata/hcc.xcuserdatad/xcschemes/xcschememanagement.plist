@@ -9,22 +9,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-KFEpubKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-KissXML.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-SIAlertView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-UIImage+PDF.xcscheme</key>
+		<key>Pods-SSZipArchive.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-UIView+AutoLayout.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-vfrReader.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>138E56C3F8C74DACAD3E9F75</key>
+		<key>16474AA4E77146B8841312EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4C5C9BEFF0CD49F8866D93DB</key>
+		<key>27925CFF2AC541B4BD8341DB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6DBA84FEEAD54AE1B37E4E77</key>
+		<key>366ED2E70D4945439C578DF1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8B46602D048345AEAE16BD93</key>
+		<key>4144607512F54CE190708433</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B310C211756E499BBFC986CE</key>
+		<key>570AD0BAB88D4D05B9FCBE13</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B374A5E3EA00420D823CF1B9</key>
+		<key>D716E37E0CB348F89028E431</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA186596E60F410896C4D110</key>
 		<dict>
 			<key>primary</key>
 			<true/>

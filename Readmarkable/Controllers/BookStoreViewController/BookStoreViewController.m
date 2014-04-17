@@ -72,15 +72,20 @@
 
 - (NSInteger)tableView:(BookStoreTableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 10;
+    return 3;
 }
 
 - (BookStoreTableViewCell *)tableView:(BookStoreTableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     BookStoreTableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"bookstoreCellID"];
-    if (!_bookStoreTableViewCell) {
+    if (!_bookStoreTableViewCell)
+    {
         cell = [[BookStoreTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"bookstoreCellID"];
     }
+//    NSArray* imageArray = @[];
+    cell.photoImage.image = [UIImage imageNamed:@"1037.jpg"];
+    cell.bookNameLabel.text = @"1111";
+    cell.authorLabel.text = @"2222";
     return cell;
 }
 

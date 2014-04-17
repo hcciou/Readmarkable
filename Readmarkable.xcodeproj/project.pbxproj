@@ -15,12 +15,17 @@
 		4F61094E18D854E0009C9AB8 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61094C18D854E0009C9AB8 /* LoginView.m */; };
 		4F61095218D85530009C9AB8 /* BookStoreTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61095118D85530009C9AB8 /* BookStoreTableView.m */; };
 		4F61095518D8554A009C9AB8 /* BookStoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61095418D8554A009C9AB8 /* BookStoreTableViewCell.m */; };
-		4F7189C618FD2824004EDC52 /* The_Metamorphosis.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F7189C518FD2824004EDC52 /* The_Metamorphosis.txt */; };
-		4F718A1218FE2F78004EDC52 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F718A1118FE2F78004EDC52 /* PageViewController.m */; };
-		4F718A1518FE306D004EDC52 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F718A1418FE306D004EDC52 /* ModelViewController.m */; };
-		4F718A1818FE307B004EDC52 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F718A1718FE307B004EDC52 /* ContentViewController.m */; };
+		4F735D6218FF79E000B16A11 /* 1037.epub in Resources */ = {isa = PBXBuildFile; fileRef = 4F735D6118FF79E000B16A11 /* 1037.epub */; };
+		4F735D6418FF7A3A00B16A11 /* 14C1.epub in Resources */ = {isa = PBXBuildFile; fileRef = 4F735D6318FF7A3A00B16A11 /* 14C1.epub */; };
+		4F735D6618FF7A7D00B16A11 /* V14C1.epub in Resources */ = {isa = PBXBuildFile; fileRef = 4F735D6518FF7A7D00B16A11 /* V14C1.epub */; };
+		4F735D6A18FF7DB800B16A11 /* 14C1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F735D6818FF7DB800B16A11 /* 14C1.jpg */; };
+		4F735D6C18FF8A7800B16A11 /* 1037.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F735D6B18FF8A7800B16A11 /* 1037.jpg */; };
+		4F735D6F18FF8BC600B16A11 /* 14C7.epub in Resources */ = {isa = PBXBuildFile; fileRef = 4F735D6D18FF8BC600B16A11 /* 14C7.epub */; };
+		4F735D7018FF8BC600B16A11 /* 14C7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F735D6E18FF8BC600B16A11 /* 14C7.jpg */; };
+		4F735D7318FF8BFB00B16A11 /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F735D7218FF8BFB00B16A11 /* BookModel.m */; };
 		4F82BD8C18F9150F009BE10F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82BD8B18F9150F009BE10F /* DetailViewController.m */; };
 		4FC55D3318D69ACD00D9D236 /* JoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC55D3218D69ACD00D9D236 /* JoinViewController.m */; };
+		4FDF7B0F18FEBEEA0080FA40 /* KFEpubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF7B0E18FEBEEA0080FA40 /* KFEpubViewController.m */; };
 		4FEE83D518D44B8300A51033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEE83D418D44B8300A51033 /* Foundation.framework */; };
 		4FEE83D718D44B8300A51033 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEE83D618D44B8300A51033 /* CoreGraphics.framework */; };
 		4FEE83D918D44B8300A51033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEE83D818D44B8300A51033 /* UIKit.framework */; };
@@ -68,17 +73,21 @@
 		4F61095118D85530009C9AB8 /* BookStoreTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreTableView.m; sourceTree = "<group>"; };
 		4F61095318D8554A009C9AB8 /* BookStoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStoreTableViewCell.h; sourceTree = "<group>"; };
 		4F61095418D8554A009C9AB8 /* BookStoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreTableViewCell.m; sourceTree = "<group>"; };
-		4F7189C518FD2824004EDC52 /* The_Metamorphosis.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = The_Metamorphosis.txt; sourceTree = "<group>"; };
-		4F718A1018FE2F78004EDC52 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
-		4F718A1118FE2F78004EDC52 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
-		4F718A1318FE306D004EDC52 /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
-		4F718A1418FE306D004EDC52 /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
-		4F718A1618FE307B004EDC52 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
-		4F718A1718FE307B004EDC52 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		4F735D6118FF79E000B16A11 /* 1037.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1037.epub; sourceTree = "<group>"; };
+		4F735D6318FF7A3A00B16A11 /* 14C1.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = 14C1.epub; sourceTree = "<group>"; };
+		4F735D6518FF7A7D00B16A11 /* V14C1.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = V14C1.epub; sourceTree = "<group>"; };
+		4F735D6818FF7DB800B16A11 /* 14C1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14C1.jpg; sourceTree = "<group>"; };
+		4F735D6B18FF8A7800B16A11 /* 1037.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1037.jpg; sourceTree = "<group>"; };
+		4F735D6D18FF8BC600B16A11 /* 14C7.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = 14C7.epub; sourceTree = "<group>"; };
+		4F735D6E18FF8BC600B16A11 /* 14C7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14C7.jpg; sourceTree = "<group>"; };
+		4F735D7118FF8BFB00B16A11 /* BookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookModel.h; sourceTree = "<group>"; };
+		4F735D7218FF8BFB00B16A11 /* BookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookModel.m; sourceTree = "<group>"; };
 		4F82BD8A18F9150F009BE10F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		4F82BD8B18F9150F009BE10F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		4FC55D3118D69ACD00D9D236 /* JoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinViewController.h; sourceTree = "<group>"; };
 		4FC55D3218D69ACD00D9D236 /* JoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinViewController.m; sourceTree = "<group>"; };
+		4FDF7B0D18FEBEEA0080FA40 /* KFEpubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFEpubViewController.h; sourceTree = "<group>"; };
+		4FDF7B0E18FEBEEA0080FA40 /* KFEpubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFEpubViewController.m; sourceTree = "<group>"; };
 		4FEE83D118D44B8300A51033 /* Readmarkable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readmarkable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEE83D418D44B8300A51033 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4FEE83D618D44B8300A51033 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -191,19 +200,6 @@
 			path = DetailViewController;
 			sourceTree = "<group>";
 		};
-		4F8A8EA418FB8EAC00442628 /* PageViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4F718A1018FE2F78004EDC52 /* PageViewController.h */,
-				4F718A1118FE2F78004EDC52 /* PageViewController.m */,
-				4F718A1318FE306D004EDC52 /* ModelViewController.h */,
-				4F718A1418FE306D004EDC52 /* ModelViewController.m */,
-				4F718A1618FE307B004EDC52 /* ContentViewController.h */,
-				4F718A1718FE307B004EDC52 /* ContentViewController.m */,
-			);
-			path = PageViewController;
-			sourceTree = "<group>";
-		};
 		4FC55D3018D6995800D9D236 /* JoinViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +207,29 @@
 				4FC55D3218D69ACD00D9D236 /* JoinViewController.m */,
 			);
 			path = JoinViewController;
+			sourceTree = "<group>";
+		};
+		4FDF7B0C18FEBE9E0080FA40 /* KFEpubViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4FDF7B0D18FEBEEA0080FA40 /* KFEpubViewController.h */,
+				4FDF7B0E18FEBEEA0080FA40 /* KFEpubViewController.m */,
+			);
+			path = KFEpubViewController;
+			sourceTree = "<group>";
+		};
+		4FDF7B1018FEBF8D0080FA40 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4F735D6118FF79E000B16A11 /* 1037.epub */,
+				4F735D6B18FF8A7800B16A11 /* 1037.jpg */,
+				4F735D6318FF7A3A00B16A11 /* 14C1.epub */,
+				4F735D6818FF7DB800B16A11 /* 14C1.jpg */,
+				4F735D6D18FF8BC600B16A11 /* 14C7.epub */,
+				4F735D6E18FF8BC600B16A11 /* 14C7.jpg */,
+				4F735D6518FF7A7D00B16A11 /* V14C1.epub */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		4FEE83C818D44B8300A51033 = {
@@ -250,7 +269,6 @@
 			children = (
 				4FEE83E318D44B8300A51033 /* AppDelegate.h */,
 				4FEE83E418D44B8300A51033 /* AppDelegate.m */,
-				4F7189C518FD2824004EDC52 /* The_Metamorphosis.txt */,
 				4FEE841218D4510600A51033 /* Arsenal */,
 				4FEE840D18D4501900A51033 /* Controllers */,
 				4FEE83EC18D44B8300A51033 /* Images.xcassets */,
@@ -265,6 +283,7 @@
 		4FEE83DB18D44B8300A51033 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4FDF7B1018FEBF8D0080FA40 /* Source */,
 				4FEE83DC18D44B8300A51033 /* Readmarkable-Info.plist */,
 				4FEE83DD18D44B8300A51033 /* InfoPlist.strings */,
 				4FEE83E018D44B8300A51033 /* main.m */,
@@ -294,8 +313,8 @@
 		4FEE840D18D4501900A51033 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4FDF7B0C18FEBE9E0080FA40 /* KFEpubViewController */,
 				4F61094418D6E297009C9AB8 /* BookStoreViewController */,
-				4F8A8EA418FB8EAC00442628 /* PageViewController */,
 				4F82BD8918F914D6009BE10F /* DetailViewController */,
 				4FC55D3018D6995800D9D236 /* JoinViewController */,
 				4FEE846118D5972C00A51033 /* LoginViewController */,
@@ -337,6 +356,8 @@
 		4FEE841718D457D700A51033 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4F735D7118FF8BFB00B16A11 /* BookModel.h */,
+				4F735D7218FF8BFB00B16A11 /* BookModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -428,10 +449,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F735D6A18FF7DB800B16A11 /* 14C1.jpg in Resources */,
 				4FEE83ED18D44B8300A51033 /* Images.xcassets in Resources */,
+				4F735D7018FF8BC600B16A11 /* 14C7.jpg in Resources */,
+				4F735D6C18FF8A7800B16A11 /* 1037.jpg in Resources */,
 				4FEE83DF18D44B8300A51033 /* InfoPlist.strings in Resources */,
-				4F7189C618FD2824004EDC52 /* The_Metamorphosis.txt in Resources */,
+				4F735D6618FF7A7D00B16A11 /* V14C1.epub in Resources */,
 				4FEE83E818D44B8300A51033 /* Main.storyboard in Resources */,
+				4F735D6F18FF8BC600B16A11 /* 14C7.epub in Resources */,
+				4F735D6218FF79E000B16A11 /* 1037.epub in Resources */,
+				4F735D6418FF7A3A00B16A11 /* 14C1.epub in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,21 +512,20 @@
 			files = (
 				4F61095218D85530009C9AB8 /* BookStoreTableView.m in Sources */,
 				4F61094D18D854E0009C9AB8 /* JoinView.m in Sources */,
-				4F718A1818FE307B004EDC52 /* ContentViewController.m in Sources */,
 				4FEE83E518D44B8300A51033 /* AppDelegate.m in Sources */,
 				4F61094718D6E30F009C9AB8 /* BookStoreViewController.m in Sources */,
-				4F718A1518FE306D004EDC52 /* ModelViewController.m in Sources */,
 				4F61094E18D854E0009C9AB8 /* LoginView.m in Sources */,
 				4F82BD8C18F9150F009BE10F /* DetailViewController.m in Sources */,
 				4FEE841518D4513E00A51033 /* UIColor+HexColor.m in Sources */,
 				4FEE83E118D44B8300A51033 /* main.m in Sources */,
+				4F735D7318FF8BFB00B16A11 /* BookModel.m in Sources */,
 				4F1A99C618E1696E00D60A19 /* MenuViewController.m in Sources */,
 				4FEE846418D5975B00A51033 /* LoginViewController.m in Sources */,
 				4FC55D3318D69ACD00D9D236 /* JoinViewController.m in Sources */,
-				4F718A1218FE2F78004EDC52 /* PageViewController.m in Sources */,
 				4F1A99CD18E1774700D60A19 /* MenuTableViewCell.m in Sources */,
 				4FEE841118D4504D00A51033 /* MainController.m in Sources */,
 				4F61095518D8554A009C9AB8 /* BookStoreTableViewCell.m in Sources */,
+				4FDF7B0F18FEBEEA0080FA40 /* KFEpubViewController.m in Sources */,
 				4F1A99CA18E1773100D60A19 /* MenuTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ModelViewController.h
+//  KFEpubViewController.h
 //  Readmarkable
 //
 //  Created by hcc on 2014/4/16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ModelViewController : UIViewController<UIPageViewControllerDataSource>
+@interface KFEpubViewController : UIViewController
 
 @end
