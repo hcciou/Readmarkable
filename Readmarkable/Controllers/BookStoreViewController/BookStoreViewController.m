@@ -8,6 +8,7 @@
 
 #import "BookStoreViewController.h"
 #import <JASidePanelController.h>
+#import <MBProgressHUD.h>
 #import "BookStoreTableView.h"
 #import "BookStoreTableViewCell.h"
 #import "DetailViewController.h"
@@ -18,6 +19,7 @@
 @property (nonatomic) BookStoreTableViewCell* bookStoreTableViewCell;
 @property (nonatomic) BookModel* book;
 @property (nonatomic) NSArray* booksArray;
+@property (nonatomic) MBProgressHUD* hud;
 @end
 
 @implementation BookStoreViewController
@@ -33,6 +35,8 @@
 
 - (void)viewDidLoad
 {
+    sleep(2);
+    [self.hud hide:YES];
     [super viewDidLoad];
     [self setLayout];
     [self.view addSubview: self.bookStoreTableView];
@@ -54,6 +58,8 @@
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
     self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
     self.navigationController.navigationBar.translucent = NO;
+    // 左邊 backbutton 書庫字拿掉
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
 //    self.view.backgroundColor = [UIColor colorWithHexString: kColorMainCyan];
     
 }
@@ -88,6 +94,14 @@
     return _bookStoreTableView;
 }
 
+- (MBProgressHUD *)hud
+{
+    if (!_hud) {
+        _hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    }
+    return _hud;
+}
+
 #pragma mark - DataSource Delegate
 
 - (NSInteger)tableView:(BookStoreTableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -110,7 +124,7 @@
         cell.photoImage.image = [UIImage imageNamed: books.cover];
         cell.bookNameLabel.text = books.title;
         cell.authorLabel.text = books.author;
-        cell.updateLabel.text = @"更新日期：2014/04/11";
+        cell.updateLabel.text = @"更新日期：2014/04/19";
     }
 
     return cell;

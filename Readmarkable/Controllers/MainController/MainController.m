@@ -55,7 +55,7 @@
 {
     if (!_logoImageView) {
         _logoImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"LogoImage"]];
-        _logoImageView.frame = CGRectMake(10, 50, 300, 300);
+        _logoImageView.frame = CGRectMake(55, 100, 200, 150);
     }
     return _logoImageView;
 }

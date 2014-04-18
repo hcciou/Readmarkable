@@ -1,5 +1,5 @@
 #include "Pods-JASidePanels.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/JASidePanels" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/JASidePanels" "${PODS_ROOT}/Headers/KFEpubKit" "${PODS_ROOT}/Headers/KissXML" "${PODS_ROOT}/Headers/SIAlertView" "${PODS_ROOT}/Headers/SSZipArchive" "${PODS_ROOT}/Headers/SSZipArchive/minizip" "${PODS_ROOT}/Headers/UIView+AutoLayout"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/JASidePanels" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/JASidePanels" "${PODS_ROOT}/Headers/KFEpubKit" "${PODS_ROOT}/Headers/KissXML" "${PODS_ROOT}/Headers/MBProgressHUD" "${PODS_ROOT}/Headers/SIAlertView" "${PODS_ROOT}/Headers/SSZipArchive" "${PODS_ROOT}/Headers/SSZipArchive/minizip" "${PODS_ROOT}/Headers/UIView+AutoLayout"
 OTHER_LDFLAGS = -ObjC ${PODS_JASIDEPANELS_OTHER_LDFLAGS}
 PODS_ROOT = ${SRCROOT}

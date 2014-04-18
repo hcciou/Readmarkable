@@ -319,10 +319,10 @@
 		4FEE840D18D4501900A51033 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4FDF7B0C18FEBE9E0080FA40 /* KFEpubViewController */,
 				4F61094418D6E297009C9AB8 /* BookStoreViewController */,
 				4F82BD8918F914D6009BE10F /* DetailViewController */,
 				4FC55D3018D6995800D9D236 /* JoinViewController */,
+				4FDF7B0C18FEBE9E0080FA40 /* KFEpubViewController */,
 				4FEE846118D5972C00A51033 /* LoginViewController */,
 				4FEE840E18D4504D00A51033 /* MainController */,
 				4F1A99C318E1693400D60A19 /* MenuViewController */,

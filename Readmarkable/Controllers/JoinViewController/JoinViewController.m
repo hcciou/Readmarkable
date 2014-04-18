@@ -14,6 +14,7 @@
 @property (nonatomic, strong) UIImageView* lineImageView;
 @property (nonatomic, strong) UITextField* emailField;
 @property (nonatomic, strong) UIButton* JoinButton;
+@property (nonatomic, strong) UITapGestureRecognizer* tapGesture;
 @end
 
 @implementation JoinViewController
@@ -50,6 +51,7 @@
     [self.view addSubview: self.lineImageView];
     [self.view addSubview: self.emailField];
     [self.view addSubview: self.JoinButton];
+    [self.view addGestureRecognizer: self.tapGesture];
 }
 
 - (void)clickJoinButton
@@ -66,7 +68,20 @@
 {
 }
 
+- (void)dismissKeyboard:(UITapGestureRecognizer*)sender
+{
+    [self.view endEditing:YES];
+}
+
 #pragma mark - getter
+
+- (UITapGestureRecognizer *)tapGesture
+{
+    if (!_tapGesture) {
+        _tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismissKeyboard:)];
+    }
+    return _tapGesture;
+}
 
 - (UILabel *)hintLabel
 {
@@ -101,6 +116,9 @@
         _emailField.layer.cornerRadius = 5;
         _emailField.layer.borderColor = [UIColor whiteColor].CGColor;
         _emailField.layer.borderWidth = 1;
+        _emailField.keyboardType = UIKeyboardTypeEmailAddress;
+        _emailField.autocapitalizationType = UITextAutocapitalizationTypeNone;
+        _emailField.autocorrectionType = UITextAutocorrectionTypeNo;
         [_emailField addTarget:self action:@selector(textFieldReturn) forControlEvents:UIControlEventEditingDidEndOnExit];
     }
     return _emailField;

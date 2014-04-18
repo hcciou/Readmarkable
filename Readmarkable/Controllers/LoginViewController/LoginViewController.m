@@ -8,6 +8,8 @@
 
 #import "LoginViewController.h"
 #import "BookStoreViewController.h"
+#import <MBProgressHUD.h>
+
 @interface LoginViewController ()
 @property (nonatomic, strong) UILabel* hintLabel;
 @property (nonatomic, strong) UIImageView* lineImageView;
@@ -16,6 +18,7 @@
 @property (nonatomic, strong) UIButton* loginButton;
 @property (nonatomic, strong) UIButton* clearButton;
 @property (nonatomic, strong) UITapGestureRecognizer* tapGesture;
+@property (nonatomic, strong) MBProgressHUD* hud;
 @end
 
 @implementation LoginViewController
@@ -55,7 +58,7 @@
     [self.view addSubview: self.loginButton];
     [self.view addSubview: self.clearButton];
     
-    [self.view addGestureRecognizer:self.tapGesture];
+    [self.view addGestureRecognizer: self.tapGesture];
 }
 
 - (void) clickClearButton
@@ -67,13 +70,20 @@
 - (void) clickLoginButton
 {
      UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-     
+    
+    [self.hud show:YES];
+    
      UINavigationController* naviViewController = [storyboard instantiateViewControllerWithIdentifier:@"naviBookStoreViewController"];
      [self presentViewController:naviViewController animated:YES completion:nil];
 }
 
 - (void) textFieldReturn
 {
+}
+
+- (void) dismissKeyboard:(UITapGestureRecognizer *) gesture
+{
+    [self.view endEditing:YES];
 }
 
 #pragma mark - getter
@@ -176,9 +186,13 @@
     return _tapGesture;
 }
 
-- (void) dismissKeyboard:(UITapGestureRecognizer *) gesture
+- (MBProgressHUD *)hud
 {
-    [self.view endEditing:YES];
+    if (!_hud) {
+        _hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+        self.hud.labelText = @"登入中";
+    }
+    return _hud;
 }
 
 #pragma mark - Navigation
