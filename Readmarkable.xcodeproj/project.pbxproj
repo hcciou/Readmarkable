@@ -42,6 +42,8 @@
 		4FEE841118D4504D00A51033 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE841018D4504D00A51033 /* MainController.m */; };
 		4FEE841518D4513E00A51033 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE841418D4513E00A51033 /* UIColor+HexColor.m */; };
 		4FEE846418D5975B00A51033 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE846318D5975B00A51033 /* LoginViewController.m */; };
+		4FFBC0E618FFEBFB00DAEC22 /* books.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBC0E518FFEBFB00DAEC22 /* books.json */; };
+		4FFBC0E81900020800DAEC22 /* alphacamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBC0E71900020800DAEC22 /* alphacamp.jpg */; };
 		DF5123C8F0C04F538CF9BD2E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047972BDD45E4AE3BCC060DD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -112,6 +114,8 @@
 		4FEE841918D4756500A51033 /* ColorList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorList.h; sourceTree = "<group>"; };
 		4FEE846218D5975B00A51033 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		4FEE846318D5975B00A51033 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		4FFBC0E518FFEBFB00DAEC22 /* books.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = books.json; sourceTree = "<group>"; };
+		4FFBC0E71900020800DAEC22 /* alphacamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alphacamp.jpg; sourceTree = "<group>"; };
 		66DB4869B472463794178E84 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,6 +225,7 @@
 		4FDF7B1018FEBF8D0080FA40 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				4FFBC0E71900020800DAEC22 /* alphacamp.jpg */,
 				4F735D6118FF79E000B16A11 /* 1037.epub */,
 				4F735D6B18FF8A7800B16A11 /* 1037.jpg */,
 				4F735D6318FF7A3A00B16A11 /* 14C1.epub */,
@@ -283,6 +288,7 @@
 		4FEE83DB18D44B8300A51033 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4FFBC0E418FFDE9F00DAEC22 /* JSONFile */,
 				4FDF7B1018FEBF8D0080FA40 /* Source */,
 				4FEE83DC18D44B8300A51033 /* Readmarkable-Info.plist */,
 				4FEE83DD18D44B8300A51033 /* InfoPlist.strings */,
@@ -371,6 +377,14 @@
 			path = LoginViewController;
 			sourceTree = "<group>";
 		};
+		4FFBC0E418FFDE9F00DAEC22 /* JSONFile */ = {
+			isa = PBXGroup;
+			children = (
+				4FFBC0E518FFEBFB00DAEC22 /* books.json */,
+			);
+			name = JSONFile;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -453,12 +467,14 @@
 				4FEE83ED18D44B8300A51033 /* Images.xcassets in Resources */,
 				4F735D7018FF8BC600B16A11 /* 14C7.jpg in Resources */,
 				4F735D6C18FF8A7800B16A11 /* 1037.jpg in Resources */,
+				4FFBC0E618FFEBFB00DAEC22 /* books.json in Resources */,
 				4FEE83DF18D44B8300A51033 /* InfoPlist.strings in Resources */,
 				4F735D6618FF7A7D00B16A11 /* V14C1.epub in Resources */,
 				4FEE83E818D44B8300A51033 /* Main.storyboard in Resources */,
 				4F735D6F18FF8BC600B16A11 /* 14C7.epub in Resources */,
 				4F735D6218FF79E000B16A11 /* 1037.epub in Resources */,
 				4F735D6418FF7A3A00B16A11 /* 14C1.epub in Resources */,
+				4FFBC0E81900020800DAEC22 /* alphacamp.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

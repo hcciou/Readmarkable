@@ -40,6 +40,7 @@
 {
     self.title = @"";
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithHexString: kColorMainCyan];
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     self.navigationController.navigationBar.hidden = YES;
     self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
     
@@ -53,7 +54,7 @@
 - (UIImageView *)logoImageView
 {
     if (!_logoImageView) {
-        _logoImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logoImage"]];
+        _logoImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"LogoImage"]];
         _logoImageView.frame = CGRectMake(10, 50, 300, 300);
     }
     return _logoImageView;

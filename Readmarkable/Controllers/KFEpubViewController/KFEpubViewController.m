@@ -23,14 +23,14 @@
 
 @implementation KFEpubViewController
 
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"READMARKABLE";
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview: self.webView];
     
-	NSURL *epubURL = [[NSBundle mainBundle] URLForResource:@"14C1" withExtension:@"epub"];
+	NSURL *epubURL = [[NSBundle mainBundle] URLForResource: self.bookID withExtension:@"epub"];
     
     NSURL *documentsURL = [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
     
@@ -78,6 +78,7 @@
     [self.webView autoPinEdgeToSuperviewEdge:ALEdgeLeading withInset:0];
     [self.webView autoPinEdgeToSuperviewEdge:ALEdgeTrailing withInset:0];
 }
+#pragma mark - getter/setter
 
 - (UIWebView *)webView
 {

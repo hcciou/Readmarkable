@@ -46,7 +46,7 @@
 
 - (void) clickCancalButton
 {
-    NSLog(@"click!");
+    
 }
 
 #pragma mark - getter

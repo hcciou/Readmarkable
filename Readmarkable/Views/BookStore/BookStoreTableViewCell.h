@@ -12,4 +12,5 @@
 @property ( nonatomic, strong) UIImageView* photoImage;
 @property ( nonatomic, strong) UILabel* bookNameLabel;
 @property ( nonatomic, strong) UILabel* authorLabel;
+@property ( nonatomic, strong) UILabel* updateLabel;
 @end

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface KFEpubViewController : UIViewController
-
+@property (nonatomic) NSString* bookID;
 @end

@@ -3,12 +3,11 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "logoImage.png"
+      "filename" : "bookDefault.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "logoImage-1.png"
+      "scale" : "2x"
     }
   ],
   "info" : {

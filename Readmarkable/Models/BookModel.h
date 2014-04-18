@@ -9,7 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface BookModel : NSObject
-@property (nonatomic, strong) UIImageView* photoImage;
-@property (nonatomic, strong) UILabel* bookNameLabel;
-@property (nonatomic, strong) UILabel* authorLabel;
+@property (nonatomic) NSString* author;
+@property (nonatomic) NSString* cover;
+@property (nonatomic) NSString* bookId;
+@property (nonatomic) NSString* intro;
+@property (nonatomic) NSString* title;
+
+- (NSArray* )parseBookJSON;
+
 @end

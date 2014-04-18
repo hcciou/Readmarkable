@@ -15,6 +15,7 @@
 @property (nonatomic, strong) UITextField* passwordField;
 @property (nonatomic, strong) UIButton* loginButton;
 @property (nonatomic, strong) UIButton* clearButton;
+@property (nonatomic, strong) UITapGestureRecognizer* tapGesture;
 @end
 
 @implementation LoginViewController
@@ -43,18 +44,18 @@
 - (void) setLayout
 {
     self.view.backgroundColor = [UIColor colorWithHexString: kColorMainCyan];
-    self.title = @"Readmarkable";
+//    self.title = @"READMARKABLE";
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
-//    self.navigationController.navigationItem.leftBarButtonItem = [UIImage imageNamed:@"Xion"];
-//    self.navigationController.navigationBar.
-//    [self.navigationController.navigationItem setLeftBarButtonItem:[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Xion"] style:UIBarButtonItemStyleDone target:nil action:nil]];
-    
+//    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+
     [self.view addSubview: self.hintLabel];
     [self.view addSubview: self.lineImageView];
     [self.view addSubview: self.emailField];
     [self.view addSubview: self.passwordField];
     [self.view addSubview: self.loginButton];
     [self.view addSubview: self.clearButton];
+    
+    [self.view addGestureRecognizer:self.tapGesture];
 }
 
 - (void) clickClearButton
@@ -65,17 +66,10 @@
 
 - (void) clickLoginButton
 {
-//    BookStoreViewController* BookStoreView = [BookStoreViewController new];
-////    [self.navigationController pushViewController: BookStoreView animated:YES];
-//    [self presentViewController:BookStoreView animated:YES completion:nil];
-    
      UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
      
      UINavigationController* naviViewController = [storyboard instantiateViewControllerWithIdentifier:@"naviBookStoreViewController"];
      [self presentViewController:naviViewController animated:YES completion:nil];
-     
-
-    
 }
 
 - (void) textFieldReturn
@@ -88,7 +82,7 @@
 {
     if (!_hintLabel) {
         _hintLabel = [[UILabel alloc] initWithFrame: CGRectMake( 10, 165, 300, 50)];
-        _hintLabel.text = @"請輸入 email 和 password 登入 Readmarkable !";
+        _hintLabel.text = @"登入 READMARKABLE !";
         _hintLabel.textAlignment = NSTextAlignmentCenter;
         _hintLabel.font = [UIFont systemFontOfSize: 18];
         _hintLabel.lineBreakMode = NSLineBreakByCharWrapping;
@@ -117,6 +111,11 @@
         _emailField.layer.cornerRadius = 5;
         _emailField.layer.borderColor = [UIColor whiteColor].CGColor;
         _emailField.layer.borderWidth = 1;
+        _emailField.keyboardType = UIKeyboardTypeEmailAddress;
+        // 自動首字大寫
+        _emailField.autocapitalizationType = UITextAutocapitalizationTypeNone;
+        // 自動拼英
+        _emailField.autocorrectionType = UITextAutocorrectionTypeNo;
         [_emailField addTarget:self action:@selector(textFieldReturn) forControlEvents:UIControlEventEditingDidEndOnExit];
     }
     return _emailField;
@@ -133,6 +132,7 @@
         _passwordField.layer.cornerRadius = 5;
         _passwordField.layer.borderColor = [UIColor whiteColor].CGColor;
         _passwordField.layer.borderWidth = 1;
+        _passwordField.returnKeyType = UIReturnKeyDone;
         [_passwordField addTarget:self action:@selector(textFieldReturn) forControlEvents:UIControlEventEditingDidEndOnExit];
     }
     return _passwordField;
@@ -165,6 +165,20 @@
     }
     return _clearButton;
     
+}
+
+- (UITapGestureRecognizer *)tapGesture
+{
+    if (!_tapGesture)
+    {
+        _tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismissKeyboard:)];
+    }
+    return _tapGesture;
+}
+
+- (void) dismissKeyboard:(UITapGestureRecognizer *) gesture
+{
+    [self.view endEditing:YES];
 }
 
 #pragma mark - Navigation

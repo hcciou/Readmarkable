@@ -42,8 +42,9 @@
 
 - (void) setLayout
 {
-    self.title = @"Readmarkable";
+//    self.title = @"Readmarkable";
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
+//    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     self.view.backgroundColor = [UIColor colorWithHexString:kColorMainCyan];
     [self.view addSubview: self.hintLabel];
     [self.view addSubview: self.lineImageView];
@@ -53,11 +54,10 @@
 
 - (void)clickJoinButton
 {
-    NSLog(@"click Join Button");
-    SIAlertView* alertView = [[SIAlertView alloc] initWithTitle: @"Readmarkable" andMessage:@"超讚！快去檢查你的email吧。"];
+    SIAlertView* alertView = [[SIAlertView alloc] initWithTitle: @"READMARKABLE" andMessage:@"超讚！快去檢查你的email吧。"];
 
     [alertView addButtonWithTitle:@"OK" type:SIAlertViewButtonTypeDestructive handler:^(SIAlertView *alertView) {
-        NSLog(@"56不能亡！");
+
     }];
     [alertView show];
 }
@@ -72,7 +72,7 @@
 {
     if (!_hintLabel) {
         _hintLabel = [[UILabel alloc] initWithFrame: CGRectMake( 10, 175, 300, 50)];
-        _hintLabel.text = @"請輸入 email 加入我們 Readmarkable !";
+        _hintLabel.text = @"請輸入 email 加入我們 READMARKABLE !";
         _hintLabel.font = [UIFont systemFontOfSize: 18];
         _hintLabel.textAlignment = NSTextAlignmentCenter;
         _hintLabel.lineBreakMode = NSLineBreakByCharWrapping;
